@@ -1,0 +1,193 @@
+* {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+body {
+  background-color: #efefef;
+}
+header {
+  background-color: #202020;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+h1 {
+  color: white;
+  padding-top: 30px;
+  margin-bottom: 0px;
+}
+header div {
+  color: #acacaa;
+  margin-top: 0px;
+  font-size: 25px;
+}
+header nav {
+  margin-top: 15px;
+  padding-bottom: 50px;
+
+}
+header nav a {
+  text-decoration: none;
+  color: #faf9f7;
+  margin-right: 20px;
+  font-size: 20px;
+}
+header nav a:hover {
+  color:#cbba50;
+}
+header nav a:active {
+  color:#50CB7D;
+}
+
+section {
+  padding: 15px;
+  margin-bottom: 50px;
+  margin-left: 35px;
+  margin-right: 35px;
+  border-radius: 10px;
+}
+#about-me {
+  background-color: white;
+}
+article figure {
+  text-align: center;
+}
+article p {
+  text-align: justify;
+}
+figure img {
+  width: 250px;
+  height: 250px;
+  border: 3px solid black;
+  border-radius: 50%;
+}
+
+#skills {
+  background-image: url("../imgs/skills-background.jpg");
+  background-size: 380px 380px;
+  background-position: bottom;
+  background-repeat: repeat;
+}
+#button-container {
+  background-color: #d0d6f0;
+  border-radius: 5px;
+  height: 75px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+}
+#button-container .button {
+  color: #ffffff;
+  background-color: #54a75f;
+  border-radius: 5px;
+  font-size: 18px;
+  display: inline-block;
+  padding: 6px;
+  margin: 20px 5px;
+  cursor: pointer;
+  }
+#button-container .button:hover {
+  position: relative;
+  bottom: 15px;
+}
+#projects {
+  background-color: #ffffff;
+  position: relative;
+}
+#projects ul {
+  list-style: none;
+}
+span.project-name {
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 15px;
+}
+#projects ul > li {
+  width: 230px;
+  height: 250px;
+  margin-top: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+#projects ul li:first-child{
+  background-color: #fe9900;
+}
+#projects ul #e-commerce-site {
+  background-color: #168ff8;
+}
+#projects ul #blog-platform{
+  width: 104%;
+  margin-top: 0px;
+  background-color: #587482;
+}
+#projects ul li:last-child {
+  background-color: #a33cb2;
+  position: absolute;
+  bottom: 1175px;
+}
+#contact {
+  background-color: #f6f6f6;
+  border: 3px solid #efefef;
+  border-radius: 10px;
+  box-shadow: 10px #888888;
+}
+
+#contact form div input, #contact form div textarea {
+  width: 100%;
+  padding: 10px  6px;
+  margin-top: 5px;
+  border: 2px solid #efefef;
+  border-radius: 5px;
+  font-size: 17px;
+}
+#contact form input {
+  background-color: #ffffff;
+  color: #479f51;
+  border: 1px solid #479f51;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 17px;
+}
+#contact form [type="submit"]:hover {
+  background-color: #479f51;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+footer {
+  margin-left: 35px;
+}
+footer nav {
+  background-color: #202020;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 5px;
+  height: 40px;
+  padding-top: 10px;
+  margin-right: 35px;
+  margin-bottom: 20px;
+}
+footer nav a {
+  text-decoration: none;
+  color: #cbba50;
+}
+#back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 0px;
+  color: #ffffff;
+  background-color: #00aee5;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  font-size: 20px;
+  width: 20px;
+  height: 25px;
+  border-radius: 5px;
+}
+footer nav a:hover {
+  color: #ffffff;
+}
